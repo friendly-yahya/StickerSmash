@@ -1,11 +1,10 @@
-import { Link, Stack } from "expo-router";
+import { Link } from "expo-router";
 import { StyleSheet, View } from "react-native";
 export default function NotFoundScreen() {
     return (
         <>
-            <Stack.Screen options={{title: "aight there's no party"}} />
             <View style={styles.container}>
-                <Link href={"/"} style={styles.button}>
+                <Link href="/tabs" style={styles.button}>
                     Go back home 
                 </Link>
             </View>
