@@ -4,7 +4,7 @@ export default function NotFoundScreen() {
     return (
         <>
             <View style={styles.container}>
-                <Link href={"/index"} style={styles.button}>
+                <Link href={"/"} style={styles.button}>
                     Go back home 
                 </Link>
             </View>
